@@ -1,8 +1,17 @@
 .title {
   width: 100%;
   text-align: center;
-  font-size: 3rem;
-  text-decoration: underline;
-  color: #2A77AE;
-  margin-bottom: 50px;
+  font-size: 1.5rem;
+  /* text-decoration: underline; */
+  color: rgb(213, 225, 233);
+  background-color: #3e76a9;
+  margin-bottom: 20px;
+  padding: 30px;
+}
+
+.score {
+  margin-bottom: 30px;
+}
+#maxScore {
+  margin-left: 50px;
 }

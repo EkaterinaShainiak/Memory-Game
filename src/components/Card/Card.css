@@ -6,6 +6,11 @@
   background-size: cover;
   background-position: 50%;
   height: 150px;
+  cursor: pointer;
+  border: white;
+  border-width: 5px;
+  border-style: solid;
+  box-shadow: 2px 2px #96a1ac;
 }
 .img-container > img {
   height: 100%;
