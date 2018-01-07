@@ -1,74 +1,74 @@
 [
     {
       "id": 1,
-      "name": "SpongeBob",
+      "name": "Aria",
       "image":
-        "https://amp.thisisinsider.com/images/59a1a4f052c08037008b4643-750-562.png"
+        "./static/images/aria.png"
     },
     {
       "id": 2,
-      "name": "Mr. Krabs",
+      "name": "Sam",
       "image":
-        "http://www.wetpaint.com/wp-content/uploads/2017/06/game-of-thrones-season-7-samwell-2.jpg"
+        "./static/images/Sam.jpg"
     },
     {
       "id": 3,
-      "name": "Squidward",
+      "name": "Jaime",
       "image":
-        "https://fsmedia.imgix.net/9d/63/c3/9d/0970/44c9/be53/f1e82aa9752d/jaime-lannister-mounts-up.jpeg"
+        "./static/images/Jaime.jpeg"
     },
     {
       "id": 4,
-      "name": "SpongeBob",
+      "name": "JohnSnow",
       "image":
-        "http://assets1.ignimgs.com/2017/08/20/abb08486b9bd3ae7e351a423905814060ad9f11d41b260430f6f6a3b6d02c3122e09a2cd519b0bfca297807382040c67-1503263387138_400w.jpg"
+        "./static/images/JohnSnow.jpg"
     },
     {
       "id": 5,
-      "name": "Mr. Krabs",
+      "name": "Targarian",
       "image":
-        "https://www.babbel.com/magazine/static/img/thumbnails/en/Languages-in-Game-of-Thrones-thumb.jpeg"
+        "./static/images/Targarian.jpeg"
     },
     {
       "id": 6,
-      "name": "Squidward",
+      "name": "Daenerys",
       "image":
-        "https://gameofthrones.blog/wp-content/uploads/2017/08/Game-of-Thrones-Daenerys-Targaryen-emilia-clarke-1041947.jpg"
+        "./static/images/Daenerys.jpg"
     },
     {
       "id": 7,
-      "name": "SpongeBob",
+      "name": "Cercei",
       "image":
-        "https://boygeniusreport.files.wordpress.com/2017/08/game-of-thrones-season-7-episode-51.jpg?quality=98&strip=all&w=782"
+        "./static/images/Cercei.jpg"
     },
     {
       "id": 8,
-      "name": "Mr. Krabs",
+      "name": "Undead",
       "image":
-        "https://i.amz.mshcdn.com/a8JBYau1Kre7VXwvyG4uLRv_AbE=/950x534/filters:quality(90)/https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com%2Fuploads%2Fcard%2Fimage%2F576426%2F3c5f1a2a-fca4-4d8a-bdad-f6f4f9f5969a.jpg"
+        "./static/images/Undead.jpg"
     },
     {
       "id": 9,
-      "name": "Squidward",
+      "name": "Tyrion",
       "image":
-        "http://static3.businessinsider.com/image/55f1c073dd0895c7078b477c/the-next-game-of-thrones-book-may-be-released-next-year.jpg"
+        "./static/images/Tyrion.jpg"
     },
     {
       "id": 10,
-      "name": "SpongeBob",
+      "name": "Theon",
       "image":
-        "https://cdn.images.express.co.uk/img/dynamic/20/590x/secondary/Game-of-Thrones-1042817.jpg"
+        "./static/images/Theon.jpg"
     },
     {
       "id": 11,
-      "name": "Mr. Krabs",
+      "name": "Red",
       "image":
-        "https://img.cinemablend.com/filter:scale/quill/6/7/a/9/e/4/67a9e4c95724dbe4906e1deb47866e592ce5b749.jpg?mw=600"
+        "./static/images/Red.jpg"
     },
     {
       "id": 12,
-      "name": "Squidward",
+      "name": "Sansa",
       "image":
-        "http://ksassets.timeincuk.net/wp/uploads/sites/55/2016/12/sansa_game_of_thrones_season_7_plot_leak_630.jpg"
+        "./static/images/Sansa.jpg"
     }
   ]

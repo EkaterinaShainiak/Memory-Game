@@ -2,7 +2,7 @@
   "name": "memory_game",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/EkaterinaShainiak/Memory-Game",
+  "homepage": "https://ekaterinashainiak.github.io/Memory-Game",
   "dependencies": {
     "gh-pages": "^1.1.0",
     "react": "^16.2.0",
@@ -10,7 +10,7 @@
     "react-scripts": "1.0.17"
   },
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "yarn build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
