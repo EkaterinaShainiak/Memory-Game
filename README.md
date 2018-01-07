@@ -4,3 +4,5 @@ Click on an image to earn points, but don't click on any more than once! Cheak h
 
 Made with React. 
 Deployed on GitHub pages: https://ekaterinashainiak.github.io/Memory-Game/
+
+![Main Page Screen Shot](./public/static/images/Main_page_screenShot.png)
