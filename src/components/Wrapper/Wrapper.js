@@ -8,7 +8,8 @@ export default class Wrapper extends Component {
     constructor() {
         super();
         this.state = {
-            selected: []
+            selected: [],
+            shaken: false,
         };
         this.cards = cards
         this.maxScore = 0
@@ -25,7 +26,8 @@ export default class Wrapper extends Component {
         // We always use the setState method to update a component's state
         const selected = this.state.selected
         if (selected.includes(idx)) {
-            this.setState({ selected: [] })
+            this.setState({ selected: [], shaken: true })
+            setTimeout(() => this.setState({ shaken: false }), 1000)
         } else {
             this.shuffleArray(this.cards)
             this.setState({ selected: [...selected, idx] });
@@ -41,7 +43,7 @@ export default class Wrapper extends Component {
             <Title score={score} maxScore={maxScore}>
                 Click on an image to earn points, but don't click on any more than once!
             </Title>
-            <CardsList cards={cards} onclick={this.handleClick}/>
+            <CardsList cards={cards} onclick={this.handleClick} shaken={this.state.shaken}/>
         </div>;
     }
 }

@@ -8,7 +8,7 @@ import "./Card.css";
 // );
 
 const Card = props => (
-    <div className="img-container">
+    <div className={`img-container ${props.shaken ? "shaken" : ""}`}>
         <img alt={props.name} src={props.image} onClick={props.onclick}/>
     </div>
 );
